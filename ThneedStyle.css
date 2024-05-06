@@ -1,0 +1,165 @@
+html{
+    background-color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+.header {
+    left: 20%;
+    position: relative;
+    padding: 10px;
+}
+
+.thneed-header{
+    position: absolute;
+    z-index: 1;
+    top: 25px;
+    left: 24%;
+    background-color: transparent;
+    color: darkblue;
+    font-size: 50px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.thneedimage{
+    margin-left: 30%;
+    width: 20%;
+    justify-content: center;
+    
+    position: relative;
+    margin-top: 100px;
+
+    position: static;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+
+.websiteID {
+    background-color: transparent;
+    border: transparent;
+    color: transparent;
+    padding: 10px 20px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    width: 100px;
+    height: 100px
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+.navbar a {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    display: inline;
+    margin-right: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white; 
+    margin: 20px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.important-link{
+    text-align: center;
+}
+
+.blink-link {
+    animation: blink .3s infinite;
+    background-color: gray;
+    color: white;
+    border: none;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+.important-link a:hover {
+    background-color: gray;
+    color: black;
+}
+
+.thneed-descript {
+    margin: 0 auto;
+    background-color: darkblue;
+    color: white;
+    font-size: 40px;
+    padding: 30px;
+    width: 50%;
+    line-height: 2.5;
+}
+
+.Models{
+    margin: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.thneed-hat-container{
+    text-align: center;
+    margin: 60px;
+}
+
+.thneed-hat{
+    width: 20%
+}
+
+.thneed-drip-container{
+    text-align: center;
+    margin: 60px;
+}
+
+.thneed-drip{
+    width: 20%
+}
+
+.thneed-hide-container{
+    text-align: center;
+    margin: 60px;
+}
+
+.thneed-hide{
+    width: 20%
+}
+
+.thneed-access-container{
+    text-align: center;
+    margin: 60px;
+}
+
+.thneed-access{
+    width: 20%
+}
+
